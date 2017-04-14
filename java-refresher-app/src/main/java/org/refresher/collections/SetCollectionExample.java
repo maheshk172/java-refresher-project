@@ -11,7 +11,7 @@ import java.util.TreeSet;
 public class SetCollectionExample {
     public static void main(String[] args) {
  //        Set<StringItem> set1 = new HashSet<StringItem>();
- //       Set<StringItem> set1 = new LinkedHashSet<StringItem>();
+        Set<StringItem> set1 = new LinkedHashSet<StringItem>();
           Set<StringItem> set1 = new TreeSet<StringItem>();
 
 /*
