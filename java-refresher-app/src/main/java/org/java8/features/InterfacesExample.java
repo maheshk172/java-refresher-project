@@ -17,10 +17,6 @@ class BrandFormula implements Formula {
         return a*a;
     }
 
-    @Override
-    public double sqrt(int a) {
-        return Math.sqrt(a) + 1;
-    }
 }
 
 public class InterfacesExample {

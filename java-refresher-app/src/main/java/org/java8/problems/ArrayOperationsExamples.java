@@ -45,7 +45,6 @@ class Problems {
     // Find Duplicates in String
     public void findDuplicateCharactersInString()  {
         String str = "AABBCCDDEEfghijklmnopqRRSSTT";
-        str.subS
         HashMap<Character, Integer> charMap = new HashMap<>();
 
 

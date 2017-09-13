@@ -12,7 +12,7 @@ public class SetCollectionExample {
     public static void main(String[] args) {
  //        Set<StringItem> set1 = new HashSet<StringItem>();
         Set<StringItem> set1 = new LinkedHashSet<StringItem>();
-          Set<StringItem> set1 = new TreeSet<StringItem>();
+          Set<StringItem> set2 = new TreeSet<StringItem>();
 
 /*
         StringItem str1 = new StringItem("Test Item");
