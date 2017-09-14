@@ -19,10 +19,10 @@ public class ScheduledExecutorServicesTest {
         ScheduledFuture future = ses.scheduleAtFixedRate(pinger, 5, 5, TimeUnit.SECONDS);
         System.out.println("Press X to cancel the ping ....");
 
-        if(System.in.read() == 'X') {
-            System.out.println("Interrupting ping...");
-            future.cancel(true);
-        }
+        System.in.read();
+        System.out.println("Interrupting ping...");
+        future.cancel(true);
+
 
     }
 }
